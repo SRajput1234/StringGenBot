@@ -18,9 +18,9 @@ async def must_join_channel(bot: Client, msg: Message):
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
-                await msg.reply_photo(photo="https://telegra.ph/file/654ddaf472f18b799600b.jpg", caption=f"» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [ᴅᴇᴠɪʟs ʜᴇᴀᴠᴇɴ]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [ᴅᴇᴠɪʟs ʜᴇᴀᴠᴇɴ]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ !",
+                await msg.reply_photo(photo="https://telegra.ph/file/1657fd009d20d2b2e8a1a.jpg", caption=f"» 𝐀𝐂𝐂𝐎𝐑𝐃𝐈𝐍𝐆 𝐓𝐎 𝐌𝐘 𝐁𝐀𝐓𝐀𝐁𝐀𝐒𝐄 𝐘𝐎𝐔'𝐑𝐄 𝐍𝐎𝐓 𝐉𝐎𝐈𝐍𝐄𝐃 [🕊️⃝‌🦋𝐒 𝐑𝐚𝐣𝐩𝐮𝐭 𝄟⃟💫]({link})𝐈𝐅 𝐘𝐎𝐔 𝐖𝐀𝐍𝐓 𝐔𝐒𝐄 𝐌𝐄 𝐓𝐇𝐄𝐍 𝐉𝐎𝐈𝐍 [🕊️⃝‌🦋𝐒 𝐑𝐚𝐣𝐩𝐮𝐭 𝄟⃟💫]({link}) 𝐀𝐍𝐃 𝐒𝐓𝐀𝐑𝐓 𝐌𝐄 𝐀𝐆𝐀𝐈𝐍 !",
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("🥺 ᴅᴇᴠɪʟs ʜᴇᴀᴠᴇɴ 🥺", url=f"{link}")]
+                        [InlineKeyboardButton("🥺 🕊️⃝‌🦋𝐒 𝐑𝐚𝐣𝐩𝐮𝐭 𝄟⃟💫 🥺", url=f"{link}")]
                     ])
                 )
                 await msg.stop_propagation()
